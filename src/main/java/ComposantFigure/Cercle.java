@@ -45,5 +45,6 @@ public class Cercle extends Element{
     public void show() {
         System.out.println("Cercle");
         dessiner();
+
     }
 }

@@ -58,5 +58,6 @@ public class Rectangle extends Element{
     public void show() {
         System.out.println("Rectangle");
         dessiner();
+
     }
 }

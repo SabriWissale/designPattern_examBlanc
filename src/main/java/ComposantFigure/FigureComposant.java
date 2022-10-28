@@ -1,9 +1,9 @@
 package ComposantFigure;
 
-public interface FigureComposant {
+import java.io.Serializable;
 
-    public  void show();
+public abstract class FigureComposant implements Serializable {
 
-
+    public abstract void show();
 
 }

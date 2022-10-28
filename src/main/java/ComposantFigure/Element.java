@@ -4,7 +4,7 @@ import Parametrage.Parametrage;
 
 import java.awt.*;
 
-public abstract class Element implements FigureComposant {
+public abstract class Element extends FigureComposant {
 
     private Parametrage parametrage;
     private Point point;

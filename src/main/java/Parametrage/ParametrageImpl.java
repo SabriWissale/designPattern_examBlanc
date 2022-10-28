@@ -5,7 +5,7 @@ import ComposantFigure.Element;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ParametrageImpl implements Parametrage {
+public class ParametrageImpl extends Parametrage {
 
     private int epaisseur;
     private String couleurContoure;
